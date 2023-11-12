@@ -1,0 +1,7 @@
+.canv {
+    border-radius: 25px;
+    border: 1px solid #999;
+    height: 70vh;
+    width: 70vw;
+    overflow:clip
+  }

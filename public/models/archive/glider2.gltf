@@ -1,0 +1,105 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cube.001",
+            "translation" : [
+                0,
+                0,
+                -2.8535051345825195
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2005,
+            "max" : [
+                14.205669403076172,
+                2.2974181175231934,
+                4.880985260009766
+            ],
+            "min" : [
+                -14.205669403076172,
+                -1.4345563650131226,
+                -10.967560768127441
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2005,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2005,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 3048,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 24060,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24060,
+            "byteOffset" : 24060
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16040,
+            "byteOffset" : 48120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6096,
+            "byteOffset" : 64160
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 70256,
+            "uri" : "glider.bin"
+        }
+    ]
+}
